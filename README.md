@@ -292,3 +292,4 @@ Para testar as funcionalidades acima descritas, basta abrir o insomnia do seu co
 
 <h4>Desenvolvido por: <strong style="color: #1f6feb; align: center">Luís Afonso Caputo</strong></h4>
 # canopus-api
+# canopus-api
