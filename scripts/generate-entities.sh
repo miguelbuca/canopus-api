@@ -2,8 +2,8 @@
 
 # declare variables
 host=localhost
-db=canopus
-user=root
+db=canupus
+user=luis
 pass=postgres
 engine=postgres
 port=5432
