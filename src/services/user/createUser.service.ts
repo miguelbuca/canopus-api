@@ -1,9 +1,9 @@
 import { getCustomRepository } from "typeorm";
-import { User } from "@models/User";
+import { Users } from "@models/Users";
 import UserRepository from "@repositories/User.repository ";
 
 export default class CreateUser {
-  async execute(props: User) : Promise<User>{
+  async execute(props: Users) : Promise<Users>{
     try {
       const userRepository = getCustomRepository(
         UserRepository
@@ -16,7 +16,7 @@ export default class CreateUser {
         throw new Error("Already Exists this user.");
       }
 
-      const user = new User(props);
+      const user = new Users(props);
 
       return await userRepository.save(user);
 
